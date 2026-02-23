@@ -1,0 +1,37 @@
+ZTRUST Working Group                                          2026-02-23
+
+attendees:
+* Mark Ackert
+* Brian Hugenbruch
+* Mike MacIsaac
+* Berry van Sleeuwen
+* Rick Troth
+
+This week, Mark A gave us an overview of SigStore,
+which is used by the Zowe project for attestation.
+The up-side to SigStore is aggressive integration with the build process.
+Signing is automatic.
+The down-side is that verification must be done on-line and some Zowe
+consumers have constraints preventing that.
+
+As discussed, I (Troth) have uploaded the undoctored collection of PGP keys
+and PKI root certificates to the repository. These can be found here:
+
+    https://github.com/openmainframeproject/wg-ztrust/tree/main/pki/all/
+
+ ... and here ...
+
+    https://github.com/openmainframeproject/wg-ztrust/tree/main/pgp/all/
+
+The PKI cert collection is more example than functional.
+I personally use the Casita.Net root certificates, but not for code signing.
+(Not for anything which the community would need.) But they show how
+other root certs should be provided: the PEM-encoded certificate `.crt`,
+the PGP signature for verification `.crt.asc`, and the human-readable
+long form of each cert `.txt`.
+
+Ahead of the meeting, I sent email to the IBM-MAIN email
+discussion list asking SHARE participants with PGP keys to exchange
+fingerprints and perform cross-signing.
+
+
