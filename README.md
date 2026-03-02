@@ -40,13 +40,13 @@ For that, see the [How-To](How-To.md) guide.
 
 This WG communicates on the following channels:
 
-- _no mailing list_
-- _no slack channel_
+- mailing list being created by Tom Slanda (LF program coordinator)
+- _no slack channel_ (but perhaps a Discord subchannel?)
 - _presently all person-to-person email_
 
 ## Meetings
 
-This WG presently meets on Mondays from 10AM til 11AM.
+This WG presently meets on Mondays from 10AM til 11AM Eastern.
 The meeting is hosted by Google Meet.
 
 https://meet.google.com/aso-voon-sia
@@ -62,9 +62,10 @@ are available [here](meetings).
 
 In the late 1980s, we got asymmetric cryptography.
 The logic had been developed a decade earlier (two independent teams)
-but it took some time for the idea to catch on. The most significant
-thing asymmetric crypto gives us is the ability to form *cryptographic*
-trust relationships, where we can use digital media to assure authenticity.
+but it took some time for the idea to catch on. Originally seen as
+a way to send very private messages, asymmetric crypto also gives us
+is the ability to form *cryptographic* trust relationships, where we
+can use digital media to assure authenticity.
 
 At this time, there are three popular services which use asymmetric
 crypto: PKI (SSL/TLS), SSH Secure Shell, and PGP "Pretty Good Privacy".
