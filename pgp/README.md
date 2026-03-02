@@ -17,7 +17,7 @@ found in the ztrust/pki folder.
 
 An example naming convention is ...
 
-    `0x` key ID (16 hex digits) `-` email address `-public.asc`
+`0x` *key ID* (16 hex digits) `-` *email address* `-public.asc`
 
 This makes them easy to find based on email address
 but also allows them to be sorted by long form key ID.
