@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+
+cd `dirname "$0"`
+
+for K in ` ls 0x*.asc | awk -F- '{print $1}' ` ; do
+    gpg --default-cert-level 3 --sign-key $K
+done
+
+

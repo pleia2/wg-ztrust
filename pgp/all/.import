@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+
+cd `dirname "$0"`
+
+ls 0x*.asc \
+    | awk '{print "gpg --allow-weak-key-signatures --import" , $0}' \
+    | sh -x
+
+exit
+
+
