@@ -1,0 +1,73 @@
+ZTRUST Working Group                                          2026-03-16
+
+attendees:
+* Berry van Sleeuwen
+* Matt Hogstrom
+* Mark Ackert
+* Rick Troth
+
+## Email versus Code Signing
+
+Berry was able to load the `.asc` bundle of PGP keys to one utility
+(Kleopatra) though only the first key in the bundle was loaded to
+another utility (Thunderbird with built-in OpenPGP). Based on Berry's
+experience, we need to keep in mind that not all applications will
+be able to consume a "bundle" of PGP keys in `.asc` armored format.
+
+Related: The bundle that Berry imported included keys for signing
+and keys for email. This made it apparent that we should distinguish
+keys used for signing (whether code signing orkey signing or other)
+from keys used primarily for email (signing and encryption).
+Some community members will have and use just *one* PGP key,
+and that's okay.
+
+## Presentation for VM Workshop
+
+Rick showed an early draft of a PowerPoint (LibreOffice "Impress"
+actually) deck to be delivered at VM Workshop in June. The VM Workshop
+is now the premier conference for the z/VM community, with the demise
+of z/VM sessions at SHARE. Also, the VM Workshop has become the "home"
+conference for the z/VSE community since IBM spun-off VSE to 21st
+Century Software. We have held PGP key signing parties at previous
+VM Workshops, and now "trust" is more important than ever.
+
+Group review of the deck was immediately helpful. (Thanks!)
+
+We need to consider presenting similar content at other conferences.
+The next SHARE is August 16 through 20 in Pittsburgh, PA, US.
+We might not have enough runway for that event but should get on
+the agenda for the next available event. We could also schedule
+(with much less formality required) a PGP key-signing BOF and both
+present the PPT deck as well as collect Z community keys.
+
+## The CBT Tape
+
+Matt had spoken with Lionel Dyck about getting him (and CBT contributors
+on-board with respect to code signing. Lionel said that he still doesn't
+get it: since CBT content is all source code, consumers "trust" the code
+because they can see it for themselves. Maybe the PPT deck will help?
+
+Rick pointed out that most open source packages are now signed ...
+and that is *source* rather than object. Rick will add a slide to the
+PPT deck illustrating this.
+
+## Utilities in the PKI realm
+
+Rick complained about not finding "one shot command" means of signing
+files or documents in PKI space. There seem to be a growing number of
+proprietary solutions, but nothing usable as an `openssl` command.
+Most online documentation for using OpenSSL for document signing
+talks about multi-step key-gen, hash, and encrypt for file signing,
+which is what PGP already does as a one-shot but does not use PKI
+certificates.
+
+Berry mentioned PKI-encrypted email from a former job which he now
+cannot read because he no longer has the hardware PKI token.
+This immediately reminded Rick that PKI-encrypted (and signed) email
+is well established and can use the standard PKI root certificate
+collection. So we have a new lead in that pursuit.
+
+Mark mentioned SMP/e package signing becoming more common
+in the z/OS world and provided links to web references.
+
+
