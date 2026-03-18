@@ -100,4 +100,12 @@ or home-grown CA is preferred. Root certificates found here are
 of that sort. When they are signed using PGP, consumers have assurance
 which they would not otherwise have.
 
+## Rationale
+
+*It's all about trust!*
+
+Cryptography is easy. Key management is hard.
+
+The keys are not significant. The *trust* is what matters.
+
 

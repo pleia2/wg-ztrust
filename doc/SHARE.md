@@ -21,9 +21,9 @@ Carry a business card or other printed report of your PGP "fingerprint".
 When you meet a colleague who could benefit from cryptographic trust,
 or who could help you in the same vein, give them the paper or card.
 
-After meeting in person, acquire the electronic copy of the other party's
-public key, confirm that the fingerprint matches what you received,
-and then "sign" their key:
+After meeting in person, acquire the *electronic* copy of the other
+party's public key, import it to your own keyring, confirm carefully
+that the fingerprint matches what you received, and then "sign" their key:
 
     gpg --sign-key *theirkeyid*
 
