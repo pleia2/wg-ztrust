@@ -1,0 +1,2 @@
+This folder holds PGP keys specifically for signing use in "armored" format.
+They may be used for code signing, certificate signing, or key signing.
