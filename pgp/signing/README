@@ -1,2 +1,12 @@
 This folder holds PGP keys specifically for signing use in "armored" format.
 They may be used for code signing, certificate signing, or key signing.
+
+The recommended filename format is ...
+
+keyid `-` identity `-public.asc`
+
+The keyid should be the long form, 16 hex digits prepended with `0x`.
+All keys in this project are public, but `-public` makes that clear
+and off-sets the identity from the `.asc` suffix.
+
+
