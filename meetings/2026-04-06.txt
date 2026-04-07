@@ -1,0 +1,60 @@
+ZTRUST Working Group                                          2026-04-06
+
+ZTRUST Working Group meeting minutes for 2026 April 6 (Monday).
+
+attendees:
+* Tom Slanda
+* Mike MacIsaac
+* Brian Hugenbruch
+* Matt Hogstrom
+* Rick Troth
+
+## Email Discussion List
+
+Tom shared the address of our email discussion list ...
+
+    wg-ztrust-discussion@lists.openmainframeproject.org
+
+Current list members include ...
+
+* Berry
+* Matt
+* Mike
+* Brian
+* Rick
+
+## PGP Key Servers
+
+The group had no updates or other thoughts with respect to
+PGP key servers. We will update the existing markdown docs
+with as much info as we have and revisit this topic.
+
+## In-House CA Guidance
+
+Many large organizations have in-house CA or similar internal trust base.
+Can some of those bodies contribute their root certificates to ZTRUST?
+
+We have no answer at present but had some discussion of the topic.
+Matt shared his experience with the Apache group and that "the release
+manager" is resposible for code signing. He reported that JPMC maintains
+a collection of white-listed web sites (rather than signed downloadables).
+We will need to revisit this too.
+
+## Next Meeting
+
+All agreed to stick with Google Meet for meeting hosting.
+All agreed with the weekly cadence and that an agenda is vital.
+
+Tom added Brian Hugenbruch's ID to the GitHub repository.
+
+Matt will run the next meeting.
+
+## First Pull Request
+
+Just an hour or two after the meeting, Brian did some
+visually appealing clean-up of the Questions-Answers markdown
+(thanks!) and opened a "pull request" with that change.
+
+Nice job Mr. Hugenbruch!
+
+

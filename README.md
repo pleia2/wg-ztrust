@@ -43,7 +43,10 @@ This WG communicates on the following channels:
 
 - mailing list being created by Tom Slanda (LF program coordinator)
 - _no slack channel_ (but perhaps a Discord subchannel?)
-- _presently all person-to-person email_
+
+The address of the email discussion list is ...
+
+    wg-ztrust-discussion@lists.openmainframeproject.org
 
 ## Meetings
 
