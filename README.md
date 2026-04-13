@@ -111,4 +111,7 @@ Cryptography is easy. Key management is hard.
 
 The keys are not significant. The *trust* is what matters.
 
+## License
 
+Content in this repository that is eligible for copyright is released under the
+terms in our [License](LICENSE.md) file.
