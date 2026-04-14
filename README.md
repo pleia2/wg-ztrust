@@ -1,31 +1,45 @@
 # ZTRUST Working Group
 
 The ZTRUST working group exists to educate and inform members of
-the System Z (mainframe) community about cryptographic trust issues,
-starting with code signing.
+the IBM Z and LinuxONE community (mainframers) about the need
+for cryptographic trust in our IT ecosystem,
+starting with code signing and the issues around it.
 
-The working group also exists to provide a "trust anchor" for the
-System Z community which can be used for verifying delivered code
-("artifacts") and related content.
+This working group also exists to provide a "trust anchor" for the
+IBM Z community which can be used for verifying delivered code
+("artifacts") and related content. *This is especially vital
+for common-use code and modifications for which there is no
+existing code or living author.*
 
 One of the first questions people ask is, "How do I create a PGP key pair?".
 <br/>
 For that, see the [How-To](How-To.md) guide.
 
+For the second and third questions, see the [Q&A](Questions-Answers.md).
+
+## Rationale
+
+> "It's always been a matter of trust."
+> *--Billy Joel*
+
+Cryptography is easy. **Key management** is hard.
+
+The keys are not significant. The *trust* is what matters.
+
 ## Goals
 
-1. Education/Information
+### 1. Education/Information
 
 As of this writing, many members of the Z community remain unfamiliar
 with trust anchors, cryptographic signing, PKI and PGP, and related
-topics. This working group will fill the gaps.
+topics. This working group will fill those gaps in understanding.
 
-2. Trust Anchor
+### 2. Trust Anchor
 
 While many trust anchors, trust paths, and trust chains already exist,
-it seemed helpful to establish a community trust anchor for those
+it is vital to establish a community trust anchor for those
 software deliverables and related services which fall outside of
-established and commercial trust space.
+established commercial trust space.
 
 <!-- The TAC member sponsor of this working group is _TAC sponsor name_ -->
 
@@ -102,13 +116,3 @@ There are cases where a CA is not available or where an in-house
 or home-grown CA is preferred. Root certificates found here are
 of that sort. When they are signed using PGP, consumers have assurance
 which they would not otherwise have.
-
-## Rationale
-
-*It's all about trust!*
-
-Cryptography is easy. Key management is hard.
-
-The keys are not significant. The *trust* is what matters.
-
-
